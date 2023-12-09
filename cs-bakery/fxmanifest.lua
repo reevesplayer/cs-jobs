@@ -5,4 +5,21 @@ author ''
 description ''
 version '1.0.0'
 
-this_is_a_map 'yes'
+client_scripts {
+    'client/client.lua',
+    'config.lua',
+}
+
+server_scripts {
+    'server/server.lua',
+    'config.lua',
+}
+
+shared_scripts {
+    'config.lua'
+}
+
+dependecies {
+    'qb-menu',
+    'qb-target',
+}
